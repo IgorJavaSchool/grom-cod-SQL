@@ -20,5 +20,23 @@ public class Order {
         this.dateConfirm = dateConfirm;
     }
 
+    public long getId() {
+        return id;
+    }
 
+    public String getProductName() {
+        return productName;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public Date getDateOrder() {
+        return dateOrder;
+    }
+
+    public Date getDateConfirm() {
+        return dateConfirm;
+    }
 }
